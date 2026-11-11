@@ -17,7 +17,7 @@ Budget et reste à vivre · Prévisions jusqu'à la paie · Patrimoine · Assist
 
 <a href="https://github.com/Nalro-ia/gestionnaire-finance-releases/raw/main/assets/demo.mp4"><img src="assets/apercu.gif" alt="Démonstration de Gestionnaire Finance" width="900"></a>
 
-<sub>Démonstration en accéléré : tableau de bord, patrimoine, budget, saisie d'une dépense, marchés, prévisions, passage au thème clair. Toutes les données sont fictives.</sub>
+<sub>Démonstration en accéléré : tableau de bord, patrimoine, budget, prélèvements du mois, saisie d'une dépense, marchés, prévisions, passage au thème clair. Toutes les données sont fictives.</sub>
 
 </div>
 
@@ -38,7 +38,7 @@ Et il répond à la vraie question du quotidien : **combien puis-je encore dépe
 
 | | |
 |---|---|
-| 🧭 **Tableau de bord** | Solde, budget par jour jusqu'à la paie, reste à vivre de la période, prélèvements à venir, répartition des dépenses. |
+| 🧭 **Tableau de bord** | Solde, budget par jour jusqu'à la paie, avancement de la période, reste à vivre, ce qui sort encore avant la paie, répartition des dépenses. |
 | 💶 **Salaire** | Fiche de paie en PDF lue automatiquement, acompte, primes, 13e mois. Le jour de paie suit les week-ends et jours fériés. |
 | 🔁 **Prélèvements et revenus récurrents** | Inscrits tout seuls au bon jour ouvré (calendrier bancaire français), montant ajustable mois par mois. |
 | 🧾 **Opérations** | Saisie express d'une dépense (`Ctrl+D`), regroupement par jour, export CSV pour Excel. |
@@ -70,9 +70,18 @@ Et il répond à la vraie question du quotidien : **combien puis-je encore dépe
 <td><img src="assets/marches-dark.png" alt="Marchés"><br><sub><b>Marchés</b> : indices, cryptos, équivalent en euros</sub></td>
 <td><img src="assets/investissements-dark.png" alt="Investissements"><br><sub><b>Investissements</b> : répartition par support</sub></td>
 </tr>
+<tr>
+<td><img src="assets/prelevements-dark.png" alt="Prélèvements"><br><sub><b>Prélèvements</b> : le mois en un coup d'œil, prochaines échéances</sub></td>
+<td><img src="assets/accueil-light.png" alt="Tableau de bord, thème clair"><br><sub><b>Thème clair</b> : au choix, ou celui de Windows</sub></td>
+</tr>
 </table>
 
 ## Tes données restent à toi
+
+<div align="center">
+<img src="assets/connexion-dark.png" alt="Écran de connexion" width="900">
+<br><sub>L'écran de connexion : ton mot de passe ouvre la base chiffrée, rien ne part sur Internet.</sub>
+</div>
 
 - **Base chiffrée** (SQLCipher, clé AES-256) : sans ton mot de passe, le fichier est illisible.
 - **Clé de récupération** donnée à la création, en cas d'oubli du mot de passe.
