@@ -1,9 +1,99 @@
+<div align="center">
+
 # Gestionnaire Finance
 
-Téléchargement des versions de Gestionnaire Finance (Windows).
+**Tes finances personnelles, claires et 100 % sur ton ordinateur.**
 
-Prenez l'installeur `Gestionnaire-Finance_<version>_x64-setup.exe` dans la dernière version de l'onglet **Releases**. Les mises à jour arrivent ensuite automatiquement dans le logiciel.
+Budget et reste à vivre · Prévisions jusqu'à la paie · Patrimoine · Assistant IA local
 
-Ce dépôt ne contient que les installeurs. L'utilisation est soumise à la licence acceptée à l'installation : usage personnel et familial, redistribution interdite sans l'accord de l'auteur.
+[![Dernière version](https://img.shields.io/github/v/release/Nalro-ia/gestionnaire-finance-releases?label=version&color=3dd68c&style=flat-square)](https://github.com/Nalro-ia/gestionnaire-finance-releases/releases/latest)
+![Windows 10 et 11](https://img.shields.io/badge/Windows-10%20%C2%B7%2011-0f1728?style=flat-square)
+![Données chiffrées](https://img.shields.io/badge/donn%C3%A9es-chiffr%C3%A9es%20AES--256-0f1728?style=flat-square)
+![Hors ligne](https://img.shields.io/badge/compte%20en%20ligne-aucun-0f1728?style=flat-square)
 
-© 2026 Nalro-ia. Tous droits réservés.
+[**Télécharger pour Windows**](https://github.com/Nalro-ia/gestionnaire-finance-releases/releases/latest) · [Voir la vidéo](https://github.com/Nalro-ia/gestionnaire-finance-releases/raw/main/assets/demo.mp4)
+
+<br>
+
+<a href="https://github.com/Nalro-ia/gestionnaire-finance-releases/raw/main/assets/demo.mp4"><img src="assets/apercu.gif" alt="Démonstration de Gestionnaire Finance" width="900"></a>
+
+<sub>Démonstration en accéléré : tableau de bord, patrimoine, budget, saisie d'une dépense, marchés, prévisions, passage au thème clair. Toutes les données sont fictives.</sub>
+
+</div>
+
+---
+
+## Pourquoi Gestionnaire Finance
+
+La plupart des applications de budget demandent un compte en ligne et l'accès à ta banque. Gestionnaire Finance fait l'inverse : **tout reste sur ton PC**, dans une base chiffrée que seul ton mot de passe ouvre. Pas d'abonnement à un agrégateur, pas de publicité, pas de revente de données.
+
+Et il répond à la vraie question du quotidien : **combien puis-je encore dépenser d'ici la prochaine paie ?**
+
+<div align="center">
+<img src="assets/banniere.png" alt="Tableau de bord, thème sombre et thème clair" width="900">
+<br><sub>Le tableau de bord, en thème sombre et en thème clair.</sub>
+</div>
+
+## Ce qu'il fait
+
+| | |
+|---|---|
+| 🧭 **Tableau de bord** | Solde, budget par jour jusqu'à la paie, reste à vivre de la période, prélèvements à venir, répartition des dépenses. |
+| 💶 **Salaire** | Fiche de paie en PDF lue automatiquement, acompte, primes, 13e mois. Le jour de paie suit les week-ends et jours fériés. |
+| 🔁 **Prélèvements et revenus récurrents** | Inscrits tout seuls au bon jour ouvré (calendrier bancaire français), montant ajustable mois par mois. |
+| 🧾 **Opérations** | Saisie express d'une dépense (`Ctrl+D`), regroupement par jour, export CSV pour Excel. |
+| 📥 **Import de relevés** | Fichiers OFX ou CSV de ta banque, doublons écartés, catégories proposées automatiquement. |
+| 👛 **Budget et enveloppes** | Ce que le salaire couvre, ce qui reste, l'argent mis de côté pour les projets. |
+| 🎯 **Épargne** | Livrets, fonds d'urgence et objectifs avec date cible et progression. |
+| 📈 **Investissements et patrimoine** | Répartition de tes placements, évolution du patrimoine total relevée chaque jour. |
+| 🌍 **Marchés** | Grands indices et cryptos avec graphiques, équivalent en euros au taux de la BCE. |
+| 🔮 **Prévisions** | Le solde mois par mois sur 3 mois à 2 ans. |
+| 🤖 **Argos, assistant IA local** | Répond sur tes chiffres en langage clair, avec un modèle qui tourne sur ton PC (Ollama). Rien ne part sur Internet. Argos explique, il ne conseille pas : ce n'est pas un conseiller en investissement. |
+| 🌗 **Thème sombre ou clair** | Ou celui de Windows, au choix dans les paramètres. |
+
+## Aperçu
+
+<table>
+<tr>
+<td width="50%"><img src="assets/patrimoine-dark.png" alt="Patrimoine"><br><sub><b>Patrimoine</b> : répartition et évolution</sub></td>
+<td width="50%"><img src="assets/budget-light.png" alt="Budget"><br><sub><b>Budget</b> : ce que couvre le salaire, ce qui reste</sub></td>
+</tr>
+<tr>
+<td><img src="assets/operations-dark.png" alt="Opérations"><br><sub><b>Opérations</b> : jour par jour, catégories, export CSV</sub></td>
+<td><img src="assets/previsions-light.png" alt="Prévisions"><br><sub><b>Prévisions</b> : le solde des prochains mois</sub></td>
+</tr>
+<tr>
+<td><img src="assets/assistant-dark.png" alt="Argos"><br><sub><b>Argos</b> : le point sur le mois, calculé sur tes chiffres</sub></td>
+<td><img src="assets/epargne-light.png" alt="Épargne"><br><sub><b>Épargne</b> : objectifs et progression</sub></td>
+</tr>
+<tr>
+<td><img src="assets/marches-dark.png" alt="Marchés"><br><sub><b>Marchés</b> : indices, cryptos, équivalent en euros</sub></td>
+<td><img src="assets/investissements-dark.png" alt="Investissements"><br><sub><b>Investissements</b> : répartition par support</sub></td>
+</tr>
+</table>
+
+## Tes données restent à toi
+
+- **Base chiffrée** (SQLCipher, clé AES-256) : sans ton mot de passe, le fichier est illisible.
+- **Clé de récupération** donnée à la création, en cas d'oubli du mot de passe.
+- **Copies de secours automatiques**, chiffrées elles aussi, avec recopie possible sur une clé USB.
+- **Verrouillage automatique** après une heure sans utilisation.
+- **Aucun compte en ligne, aucun traceur.** Les seules connexions servent aux cours des marchés, aux taux de change et aux mises à jour. Elles n'envoient aucun de tes chiffres.
+
+## Installer
+
+1. Télécharge `Gestionnaire-Finance_<version>_x64-setup.exe` dans la [**dernière version**](https://github.com/Nalro-ia/gestionnaire-finance-releases/releases/latest).
+2. Lance-le. Si Windows affiche « Windows a protégé votre ordinateur », clique sur **Informations complémentaires**, puis **Exécuter quand même**. L'installeur n'a pas encore de certificat de signature payant.
+3. Choisis ton identifiant et ton mot de passe, puis note la clé de récupération.
+
+Les **mises à jour arrivent ensuite automatiquement** dans le logiciel, avec une signature vérifiée.
+
+**Configuration :** Windows 10 ou 11, 64 bits. Argos est facultatif : au premier lancement, le logiciel propose d'installer l'IA locale et choisit un modèle adapté à ton PC.
+
+---
+
+<div align="center">
+<sub>Captures et vidéo réalisées avec le mode démonstration du logiciel : toutes les données affichées sont fictives.<br>
+Utilisation soumise à la licence acceptée à l'installation : usage personnel et familial, redistribution interdite sans l'accord de l'auteur.<br>
+© 2026 Nalro-ia. Tous droits réservés.</sub>
+</div>
