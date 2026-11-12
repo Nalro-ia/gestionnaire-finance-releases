@@ -105,22 +105,35 @@ Le logiciel contacte seulement les services ci-dessous. C'est ton ordinateur qui
 
 Ces services appliquent leurs propres règles de confidentialité. Si tu n'ouvres pas l'onglet Marchés et n'installes pas Argos, seule la recherche de mise à jour a lieu.
 
+## Essayer avant de saisir tes chiffres
+
+<div align="center">
+<img src="assets/premier-lancement-dark.png" alt="Premier lancement avec le bouton Découvrir avec des données fictives" width="900">
+<br><sub>Dès le premier lancement : crée ton accès, ou découvre d'abord le logiciel avec des données fictives.</sub>
+</div>
+
+Pas envie de tout remplir pour voir à quoi ça ressemble ? Clique sur **Découvrir avec des données fictives** sur l'écran d'accueil.
+
+- La démonstration s'ouvre **dans une fenêtre à part**, avec un salaire, des prélèvements, une épargne et des placements inventés.
+- Les dates suivent **le mois en cours**, donc tout est vivant : avancement de la période, prochaines échéances, jour de paie.
+- **Tes propres données ne sont jamais ouvertes.** Un bandeau rappelle que tout est fictif, et **Quitter la démonstration** referme la fenêtre.
+
+## Installer
+
+1. Télécharge `Gestionnaire-Finance_<version>_x64-setup.exe` dans la [**dernière version**](https://github.com/Nalro-ia/gestionnaire-finance-releases/releases/latest).
+2. Lance-le. Si Windows affiche « Windows a protégé votre ordinateur », clique sur **Informations complémentaires**, puis **Exécuter quand même**. L'installeur n'a pas encore de certificat de signature payant.
+3. Choisis ton identifiant et ton mot de passe, puis note la clé de récupération. Tu peux aussi commencer par **Découvrir avec des données fictives**.
+
+Les **mises à jour arrivent ensuite automatiquement** dans le logiciel, avec une signature vérifiée.
+
+**Configuration :** Windows 10 ou 11, 64 bits. Argos est facultatif : au premier lancement, le logiciel propose d'installer l'IA locale et choisit un modèle adapté à ton PC.
+
 ## Un avis, un problème ?
 
 Écris-le dans les [**Issues**](https://github.com/Nalro-ia/gestionnaire-finance-releases/issues/new/choose) de ce dépôt (un compte GitHub gratuit suffit). Toute idée d'amélioration est la bienvenue.
 
 > [!WARNING]
 > Les Issues sont **publiques** : tout le monde peut les lire. N'y mets **jamais de vrais montants, relevés, noms ou numéros de compte**, ni de capture de tes vraies données. Pour montrer un problème en image, masque d'abord les chiffres et les noms.
-
-## Installer
-
-1. Télécharge `Gestionnaire-Finance_<version>_x64-setup.exe` dans la [**dernière version**](https://github.com/Nalro-ia/gestionnaire-finance-releases/releases/latest).
-2. Lance-le. Si Windows affiche « Windows a protégé votre ordinateur », clique sur **Informations complémentaires**, puis **Exécuter quand même**. L'installeur n'a pas encore de certificat de signature payant.
-3. Choisis ton identifiant et ton mot de passe, puis note la clé de récupération.
-
-Les **mises à jour arrivent ensuite automatiquement** dans le logiciel, avec une signature vérifiée.
-
-**Configuration :** Windows 10 ou 11, 64 bits. Argos est facultatif : au premier lancement, le logiciel propose d'installer l'IA locale et choisit un modèle adapté à ton PC.
 
 ---
 
