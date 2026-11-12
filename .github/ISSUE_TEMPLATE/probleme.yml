@@ -1,0 +1,28 @@
+name: Signaler un problème
+description: Quelque chose ne fonctionne pas comme prévu.
+labels: ["problème"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Cette page est publique.** N'écris jamais de vrais montants, relevés, noms ou numéros de compte, et masque tes chiffres sur les captures.
+  - type: input
+    id: version
+    attributes:
+      label: Version du logiciel
+      description: Visible dans Paramètres.
+      placeholder: "ex. 1.0.8"
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Que s'est-il passé ?
+      description: Ce que tu faisais, ce que tu attendais, ce qui s'est passé à la place.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confidentialite
+    attributes:
+      label: Confidentialité
+      options:
+        - label: Mon message et mes captures ne contiennent aucune donnée financière réelle.
+          required: true

@@ -87,7 +87,30 @@ Et il répond à la vraie question du quotidien : **combien puis-je encore dépe
 - **Clé de récupération** donnée à la création, en cas d'oubli du mot de passe.
 - **Copies de secours automatiques**, chiffrées elles aussi, avec recopie possible sur une clé USB.
 - **Verrouillage automatique** après une heure sans utilisation.
-- **Aucun compte en ligne, aucun traceur.** Les seules connexions servent aux cours des marchés, aux taux de change et aux mises à jour. Elles n'envoient aucun de tes chiffres.
+- **Aucun compte en ligne, aucun traceur.** Les seules connexions servent aux cours des marchés, aux taux de change et aux mises à jour. Elles n'envoient aucun de tes chiffres (détail ci-dessous).
+
+## Confidentialité
+
+**L'auteur ne reçoit aucune donnée.** Pas de statistiques d'utilisation, pas de rapport de plantage, pas de compte : tes opérations, soldes, salaires et conversations avec Argos restent sur ton PC.
+
+Le logiciel contacte seulement les services ci-dessous. C'est ton ordinateur qui les appelle directement. Comme pour toute visite d'un site web, ils voient ton adresse IP, mais **aucune de tes données financières ne leur est envoyée**.
+
+| Service | Pourquoi | Ce qui est envoyé |
+|---|---|---|
+| [GitHub](https://github.com) | Rechercher et télécharger les mises à jour | Rien d'autre que la demande du fichier de version |
+| [Yahoo Finance](https://finance.yahoo.com) | Cours des indices et cryptos de l'onglet Marchés | Une liste fixe d'indices, identique pour tout le monde, **jamais tes placements** |
+| [Google News](https://news.google.com) | Titres de l'actualité économique pour le point marchés | Une recherche fixe, identique pour tout le monde |
+| [Frankfurter](https://frankfurter.dev) | Taux de change de la BCE | La liste des devises |
+| [Ollama](https://ollama.com) | Installer l'IA locale et ses modèles, si tu choisis d'activer Argos | Rien d'autre que le téléchargement |
+
+Ces services appliquent leurs propres règles de confidentialité. Si tu n'ouvres pas l'onglet Marchés et n'installes pas Argos, seule la recherche de mise à jour a lieu.
+
+## Un avis, un problème ?
+
+Écris-le dans les [**Issues**](https://github.com/Nalro-ia/gestionnaire-finance-releases/issues/new/choose) de ce dépôt (un compte GitHub gratuit suffit). Toute idée d'amélioration est la bienvenue.
+
+> [!WARNING]
+> Les Issues sont **publiques** : tout le monde peut les lire. N'y mets **jamais de vrais montants, relevés, noms ou numéros de compte**, ni de capture de tes vraies données. Pour montrer un problème en image, masque d'abord les chiffres et les noms.
 
 ## Installer
 

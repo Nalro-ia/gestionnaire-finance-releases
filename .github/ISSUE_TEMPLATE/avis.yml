@@ -1,0 +1,21 @@
+name: Donner un avis ou proposer une idée
+description: Une amélioration, une fonctionnalité, une remarque.
+labels: ["avis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Cette page est publique.** N'écris jamais de vrais montants, relevés, noms ou numéros de compte.
+  - type: textarea
+    id: avis
+    attributes:
+      label: Ton avis ou ton idée
+    validations:
+      required: true
+  - type: checkboxes
+    id: confidentialite
+    attributes:
+      label: Confidentialité
+      options:
+        - label: Mon message ne contient aucune donnée financière réelle.
+          required: true
